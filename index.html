@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <style>
+     fieldset {
+        width: 20%;
+        margin: 20px auto;
+        border-radius: 20px;
+        border: 1px solid black;
+     }
+
+     legend {
+        text-align: center;
+     }
+     h2 {
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     form {
+        margin: 10px;
+        margin-top: 0;
+     }
+     label {
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     button {
+        padding: 7px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        display: block;
+        float: right;
+        transition: 0.3s ease;
+     }
+     button:hover {
+      opacity: 0.9;
+     }
+     button:active {
+        opacity: 0.6;
+     }
+    </style>
+</head>
+<body>
+    <fieldset>
+     <legend style="text-align: center;"><h2>LOGIN</h2></legend>
+     <form ><label for="username" style="font-weight: 500;">Username:</label>
+      <input type="text" name="username" style="width: 150px; float: right; padding: 4px; border-radius: 3px;" >
+      <br><br>
+      <form ><label for="password" style="font-weight: 500;">Password: </label>
+      <input type="password" name="password" id="password" style="width: 150px; float: right;padding: 4px; border-radius: 3px;">
+      <br><br>
+      <button>Submit</button>
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+fieldset{
+    border: 1px solid rgb(69, 77, 189);
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+legend{
+    text-align: center;
+    color: blue;
+}
+form {
+    margin: 10px;
+    margin-top: 0;
+}
+input {
+    float: right;
+    width: 150px;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: blue;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    border-color: blue;
+}
+label{
+    color: blue;
+}
+button {
+    padding: 7px;
+    width: 100px;
+    border-color: rgb(133, 133, 228);
+    float: right;
+    border-radius: 6px;
+    color: blue;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+button:active {
+    background-color: rgb(129, 129, 240);
+}
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><h2 style="font-style: oblique;">Login</h2></legend>
+        <form action="./index.html">
+            <label for="username">Username:</label>
+            <input type="text" autocomplete="on">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
